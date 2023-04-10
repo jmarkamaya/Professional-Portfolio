@@ -140,6 +140,10 @@ nav ul li a:hover {
     list-style-type: none;
     text-align: center;
     font-size: 30px;
+    background-color: #0072bb;
+    color: #ffffff;
+    padding: 50 px;
+    margin: 20px;
 }
 
 #contactme li {
