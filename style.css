@@ -60,7 +60,9 @@ nav ul li a:hover {
       
 }
 
-
+main {
+    display: inline-block;
+}
 
 #aboutme {
     background-color: #0072bb;
@@ -86,18 +88,10 @@ nav ul li a:hover {
     margin-bottom: 20px;
     font-size: 36px;
     padding-top: 50px;
-    /* margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold */
+    
 }
 
-#aboutme p {
-    
-    
 
-}
 
 #work {
     background-color: #0072bb;
@@ -108,11 +102,6 @@ nav ul li a:hover {
 }
 
 #work img {
-    /* max-height: 75%; 
-    max-width: 300%;
-    float: middle;
-    /* margin-right: 25px; */
-    /* padding: 50px; */
     display: block;
   margin-left: auto;
   margin-right: auto;
