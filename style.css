@@ -1,19 +1,24 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 5px;
 
 }
 
 
 body {
     background-color: #d9dcd6;
+    
 }
 
 header {
     background-color: #0072bb;
     color: #ffffff;
-    width: 100%;
-    display: inline-block;
+    /* width: 100%; */
+    display: flex;
+    justify-content: space-between;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* margin: 20px */
 
 }
 
@@ -27,13 +32,13 @@ header h1 {
 
 
 
-nav ul {
+header ul {
     list-style-type: none;
     
     
 }
 
-nav a {
+header a {
     font-weight: bold;
     float: right;
     margin-right: 30px;
@@ -44,27 +49,30 @@ nav a {
     
 }
 
-nav ul li a:hover {
-    color: #f4f4f4;
+header ul li a:hover {
     text-decoration: underline;
 }
 
+.banner {
+    /* margin: 20px; */
+}
 .banner img {
         
         position: center;
         width: 100%;
+       
       
 }
 
 main {
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
 #aboutme {
     background-color: #0072bb;
-    padding: 50 px;
-    margin: 20px;
+    /* padding: 50 px; */
+    /* margin: 20px; */
     color: #ffffff;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -92,13 +100,14 @@ main {
 #work {
     background-color: #0072bb;
     color: #ffffff;
-    padding: 50 px;
-    margin: 20px;
-    height: 600px;
+    /* padding: 50 px; */
+    /* margin: 20px; */
+    height: 1100px;
+    /* display: flex; */
 }
 
 #work img {
-    display: block;
+    display: block; 
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -122,18 +131,25 @@ main {
 }
 
 
+#contactme {
+    background-color: #0072bb;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
 #contactme ul {
     list-style-type: none;
     text-align: center;
-    font-size: 30px;
-    background-color: #0072bb;
-    color: #ffffff;
-    padding: 50 px;
-    margin: 20px;
+    
+    
+    
+    /* padding: 50 px; */
+    /* margin: 20px; */
 }
 
 #contactme li {
-    margin: 25px;
+    /* margin: 25px; */
     display: inline-block;
     font-weight: bold;
     text-align: center;
